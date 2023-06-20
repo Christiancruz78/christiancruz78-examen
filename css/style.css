@@ -1,0 +1,91 @@
+/*font-family: 'Catamaran', sans-serif;
+*/
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+body, html {
+    height: 100%;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg-home-v2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+.titulo{
+	color: white;
+	font-family: 'Catamaran', sans-serif;
+}
+.products{
+	color: white;
+	font-family: 'Catamaran', sans-serif;
+}
+.popular{
+	color: white;
+	font-family: 'Catamaran', sans-serif;
+}
+.sale{
+	color: white;
+	font-family: 'Catamaran', sans-serif;
+}
+.boton{
+	font-family: 'Catamaran', sans-serif;
+	color: white;
+	background-color: red;
+}
+.col{
+	max-height: 500px;
+}
+#bolsa{
+	background-color: #161616; 
+height: 10%;
+	width: 10%;
+}
+#audifonos{
+	background-color: #161616; 
+height: 10%;
+	width: 10%;
+}
+#pesas{
+	background-color: #161616; 
+	height: 10%;
+	width: 10%;
+}
